@@ -1,8 +1,8 @@
 # Wanjavwa Nzobokela - Portfolio Website
 
-A modern, aesthetically pleasing portfolio website showcasing projects, skills, and social impact work.
+Hello Everyone this is the readme on the code behind my portfolio.
 
-## 🎨 Features
+## Key Features on My Portfolio
 
 - **Modern Techy Design** with glitch effects, animations, and gradient accents
 - **Responsive Layout** that works on all devices
@@ -24,45 +24,13 @@ Wanjavwa/
 └── README.md           # This file
 ```
 
-## 🖼️ Adding Your Images
 
-Place your images in the `images/` folder:
 
-1. **profile.jpg** - Your professional profile photo
-2. **farmers-basket.jpg** - Screenshot or banner for Farmers Basket project
-3. **ecocircle.jpg** - Screenshot or banner for EcoCircle project
-
-Recommended image sizes:
-- Profile: 400x400px (square)
-- Project images: 800x600px (landscape)
-
-## 🎨 Customization
-
-### Colors
-Edit the CSS variables in `styles.css`:
-```css
-:root {
-    --primary-color: #00f5ff;      /* Cyan */
-    --secondary-color: #ff006e;     /* Pink */
-    --accent-color: #7b2cbf;        /* Purple */
-}
-```
-
-### Contact Links
-Update the contact section in `index.html` with your actual links:
-- Email: Line 276
-- LinkedIn: Line 284
-- GitHub: Line 295
-
-### Project Links
-Add your project URLs in the project cards (lines 137-152 and 180-195 in `index.html`)
 
 ## 🚀 Getting Started
 
-1. Open `index.html` in a web browser to view your portfolio
-2. Add your images to the `images/` folder
-3. Update contact links with your actual information
-4. Customize colors and content as needed
+1. Open `index.html` in a web browser to view my portfolio
+2. Or use this website link to view my portfolio
 
 ## 🎯 Fonts Used
 
