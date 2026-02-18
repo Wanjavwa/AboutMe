@@ -746,6 +746,47 @@ section {
     color: var(--primary-color);
 }
 
+/* ==================== EASTER EGG ==================== */
+.easter-egg {
+    background: linear-gradient(135deg, rgba(0, 245, 255, 0.05), rgba(255, 0, 110, 0.05));
+    padding: 3rem 0;
+    text-align: center;
+    border-top: 1px solid rgba(0, 245, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 0, 110, 0.2);
+}
+
+.easter-message {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    color: var(--text-white);
+    margin-bottom: 1rem;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.easter-instruction {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: var(--primary-color);
+    background: rgba(0, 245, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--secondary-color);
+    display: inline-block;
+}
+
+.easter-instruction strong {
+    color: var(--secondary-color);
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 968px) {
     .about-content,
